@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desafio Quarta Aula</title>
+</head>
+<style>
+	body {
+		margin: 0;
+		height: 100vh;
+		width: 100vw;
+	}
+
+	header,
+	footer {
+		width: 100%;
+		height: 7%;
+		background-color: rgb(41, 40, 40);
+	}
+
+	footer {
+		height: 10%;
+		bottom: 0;
+		background-color: rgb(41, 40, 40);
+
+	}
+
+	main {
+		height: 83%;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
+
+
+	.direita {
+
+		width: 50%;
+
+	}
+
+	.esquerda {
+
+		width: 50%;
+	}
+
+	.coluna {
+		width: 20%;
+		height: 20%;
+		border: 1px solid #000;
+		display: flex;
+	}
+
+	@media screen and (max-width: 700px) {
+		main {
+			display: block
+		}
+
+		.direita {
+
+			width: 100%;
+
+		}
+
+		.esquerda {
+
+			width: 100%;
+		}
+
+		.coluna {
+			display: none;
+		}
+
+
+
+	}
+</style>
+
+<body>
+	<header></header>
+	<main>
+		<div class="direita">
+			<p>
+				Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorem, fuga. Temporibus perspiciatis
+				omnis dolorem magni officia quo necessitatibus asperiores voluptates saepe debitis vitae nisi
+				obcaecati tenetur illo, cumque odit assumenda.
+			</p>
+
+			<p>
+				Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorem, fuga. Temporibus perspiciatis
+				omnis dolorem magni officia quo necessitatibus asperiores voluptates saepe debitis vitae nisi
+				obcaecati tenetur illo, cumque odit assumenda.
+			</p>
+
+			<p>
+				Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorem, fuga. Temporibus perspiciatis
+				omnis dolorem magni officia quo necessitatibus asperiores voluptates saepe debitis vitae nisi
+				obcaecati tenetur illo, cumque odit assumenda.
+			</p>
+
+			<p>
+				Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorem, fuga. Temporibus perspiciatis
+				omnis dolorem magni officia quo necessitatibus asperiores voluptates saepe debitis vitae nisi
+				obcaecati tenetur illo, cumque odit assumenda.
+			</p>
+		</div>
+		<div class="esquerda">
+			<p>
+				Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorem, fuga. Temporibus perspiciatis
+				omnis dolorem magni officia quo necessitatibus asperiores voluptates saepe debitis vitae nisi
+				obcaecati tenetur illo, cumque odit assumenda.
+			</p>
+
+			<p>
+				Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorem, fuga. Temporibus perspiciatis
+				omnis dolorem magni officia quo necessitatibus asperiores voluptates saepe debitis vitae nisi
+				obcaecati tenetur illo, cumque odit assumenda.
+			</p>
+
+			<p>
+				Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorem, fuga. Temporibus perspiciatis
+				omnis dolorem magni officia quo necessitatibus asperiores voluptates saepe debitis vitae nisi
+				obcaecati tenetur illo, cumque odit assumenda.
+			</p>
+
+			<p>
+				Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dolorem, fuga. Temporibus perspiciatis
+				omnis dolorem magni officia quo necessitatibus asperiores voluptates saepe debitis vitae nisi
+				obcaecati tenetur illo, cumque odit assumenda.
+			</p>
+		</div>
+		<div class="coluna"></div>
+	</main>
+	<footer></footer>
+</body>
+
+</html>

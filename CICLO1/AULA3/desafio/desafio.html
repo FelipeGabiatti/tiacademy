@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Desafio Terceira Aula</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .geral {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .header {
+            width: 100%;
+            height: 10%;
+            background-color: rgb(31, 28, 28);
+            color: #fff;
+            display: flex;
+            font-size: 25px;
+            font-family: Verdana;
+            justify-content: space-between;
+
+        }
+
+        .lista {
+            padding-right: 150px;
+            width: 30%;
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+            font-size: 20px;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+        }
+
+        .logo {
+            width: 20%;
+            display: flex;
+            justify-content: flex-end;
+            font-weight: bold;
+            font-family: verdana;
+            font-size: 25px;
+            align-items: center;
+        }
+
+        .home {    
+            width: 120px;
+            padding: 10px;       
+            background-color: rgb(206, 151, 2);
+            border-radius: 20px;
+
+        }
+        .footer {
+            width: 100%;
+            height: 15%;
+            background-color: rgb(31, 28, 28);
+            color: #fff;
+            bottom: 0;
+            font-family: Verdana;
+            font-size: 30px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .central {
+            width: 100%;
+            height: 75%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .esquerda {
+            width: 49%;
+            height: 50%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .meio {
+            width: 2%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .direita {
+            width: 49%;
+            height: 100%;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .div-caixa-texto {
+            width: 30%;
+            height: 50%;
+            background-color: rgb(247, 247, 247);
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            font-family: verdana;
+        }
+
+        .pontilhado-centro {
+            height: 40%;
+            border-left: 1px dashed #000;
+        }
+
+        .digite {
+            width: 30%;
+            height: 5%;
+            font-family: verdana;
+        }
+
+        .campo-email {
+            width: 150px;
+            height: 25px;
+            border-radius: 5px;
+            border: 1px solid #000;
+            font-family: verdana;
+        }
+
+        .botao-entrar {
+            background-color: rgb(4, 0, 255);
+            color: #fff;
+            border-radius: 4px;
+            font-family: verdana;
+
+        }
+
+        .botao {
+            padding-top: 3px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="geral">
+
+        <div class="header">
+            <div class="logo">LOGO</div>
+            <ul class="lista">
+ 
+                <li class="home">Home</li>
+
+                <li class="contato">Contato</li>
+                <li class="sobre">Sobre</li>
+            </ul>
+        </div>
+
+        <div class="central">
+            <div class="esquerda">
+                <div class="div-caixa-texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolor eius placeat incidunt molestias non!
+                    </p>
+                </div>
+            </div>
+
+            <div class="meio">
+                <div class="pontilhado-centro"></div>
+            </div>
+            <div class="direita">
+                <div class="digite">
+                    <p>Digite seu e-mail</p>
+                </div>
+                <div class="caixa">
+                    <form action="post">
+                        <input class="campo-email" placeholder="e-mail" type="text">
+                    </form>
+                </div>
+                <div class="botao">
+                    <button class="botao-entrar">Entrar</button>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="footer">
+            <p>by TI-ACADEMY</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

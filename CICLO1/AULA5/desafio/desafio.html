@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Quinta Aula</title>
+    <style>
+        body {
+            margin: 0;
+            height: auto;
+            width: 100vw;
+
+        }
+
+        .main {
+            height: 100%;
+            width: 100vw;
+            display: flex;
+            background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(197, 197, 197));
+        }
+
+        .content-esquerda {
+            width: 23%;
+            height: auto;
+        }
+
+        p {
+            font-family: verdana;
+            padding-left: 5px;
+            border: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+        .central {
+            width: 54%;
+            height: 100%;
+            background-color: #fff;
+            border-left: 3px solid rgb(189, 189, 189);
+            border-right: 3px solid rgb(189, 189, 189);
+        }
+
+        .header {
+            width: 100%;
+            height: 120px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .navegation-menu {
+            width: 100%;
+            height: 35px;
+            background-image: linear-gradient(180deg, green, black);
+        }
+
+        .li-menu {
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        .p-hover:hover {
+            text-decoration: underline
+        }
+
+        .bottom-navegation {
+            width: 100%;
+            height: auto;
+            align-items: center;
+            display: flex;
+            padding-bottom: 5px;
+            font-size: 14px;
+            padding-top: 5px;
+        }
+
+        .p-bottom {
+            margin: 0;
+            padding-left: 5px;
+            color: blue;
+            font-family: verdana;
+            text-decoration: underline;
+        }
+
+        .apresentacao {
+            width: 100%;
+            height: auto;
+        }
+
+        .p-apresentacao {
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px;
+            border-top:1px solid rgb(110, 110, 110);
+            border-bottom: 1px solid rgb(110, 110, 110);
+        }
+
+        .p-texto {
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: justify;
+            padding-top: 7px;
+            font-size: 14px;
+        }
+span{
+    font-weight: bold;
+}
+        .equipe {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .equipe-esquerda {
+            width: 50%;
+            height: auto;
+        }
+
+        .equipe-direita {
+            width: 50%;
+            height: auto;
+        }
+
+        .pesquisadores {
+            width: 100%;
+            height: auto;
+        }
+
+        .p-equipe {
+            height: auto;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px;
+            border-bottom: 1px solid rgb(110, 110, 110);
+        }
+
+
+        .p-equipe-classe {
+            color: #004d99;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .p-equipe-sub {
+            font-size: 14px;
+            padding-left: 15px;
+
+        }
+
+
+        .footer {
+            width: 100%;
+            height: 50px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .p-footer {
+            margin: 0;
+            font-family: verdana;
+            font-size: 12px;
+            color: rgb(124, 124, 124);
+            border-top: 1px solid rgb(110, 110, 110);
+        }
+
+        .content-direita {
+            width: 23%;
+            height: auto;
+        }
+
+        @media screen and (max-width: 1100px) {
+            .navegation-menu {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="content-esquerda"> </div>
+        <div class="central">
+            <div class="header">
+                <img title="imagem uem" alt="uem" src="uem.jpg">
+
+
+            </div>
+            <div class="navegation-menu">
+                <ul class="li-menu">
+                    <li class="p-hover">Início</li>
+                    <li class="p-hover">Projetos em andamento</li>
+                    <li class="p-hover">Projetos Concluídos</li>
+                    <li class="p-hover">Publicações</li>
+                    <li class="p-hover">Dissertações</li>
+                    <li class="p-hover">Teses</li>
+                    <li class="p-hover">Eventos</li>
+                    <li class="p-hover">Contato</li>
+                    <li class="p-hover">Fotos</li>
+                </ul>
+
+
+
+
+            </div>
+            <div class="bottom-navegation">
+                <p class="p-bottom">XX CELLIP – Seminário do Cellip - Centro de Estudos Linguísticos e Literários do
+                    Paraná.</p>
+            </div>
+            <div class="apresentacao">
+                <p class="p-apresentacao">Apresentaçao</p>
+                <p class="p-texto">O <span> Grupo de Pesquisa Interação e Escrita </span>é formado por pesquisadores de várias
+                    Instituições de Ensino
+                    Superior do Paraná, preocupados com a escrita em situação de ensino e aprendizagem de línguas, nas
+                    suas mais variadas manifestações. Compõem o grupo professores e pesquisadores de ensino superior,
+                    ligados a programas de pós-graduação (stricto e lato sensu), alunos de pós-graduação e de graduação.
+                    As pesquisas desenvolvidas apresentam uma base teórica comum que é o sócio-interacionismo, a partir
+                    da perspectiva de Vygotsky e Bakhtin e toda a literatura dela decorrente, no Brasil. Além dessa
+                    abordagem, também se empregam os princípios do interacionismo sócio-discursivo, com maior
+                    representatividade em Bronckart. São interesses temáticos: o ensino, a aquisição e o desenvolvimento
+                    da escrita, envolvendo-se a leitura, a produção de textos e a análise linguística, como eixos
+                    norteadores, primários e pertinentes, no ensino básico e no ensino superior, especificamente na
+                    formação de professores de língua materna e língua estrangeira, incluindo-se o material didático,
+                    as abordagens, os procedimentos e as metodologias empregadas.Além disso,são desenvolvidas pesquisas
+                    que estudam a utilização e a posição da escrita em situações sociais definidas.</p>
+
+
+
+
+            </div>
+            <div class="equipe">
+                <p class="p-equipe">Equipe</p>
+                <div class="flex">
+                    <div class="equipe-esquerda">
+
+                        <p class="p-equipe-classe">Coordenador</p>
+                        <p class="p-equipe-sub">Dr. Renilson José Menegassi</p>
+                        <p class="p-equipe-classe">Vice-coordenador</p>
+                        <p class="p-equipe-sub">Dra. Maria Adelaide de Freitas</p>
+                        <p class="p-equipe-classe">Secretarias</p>
+                        <p class="p-equipe-sub">Ms. Ângela Francine Fuza</p>
+                        <p class="p-equipe-sub">Ms. Rafaela de Cássia Franzoi</p>
+                    </div>
+                    <div class="equipe-direita">
+                        <p class="p-equipe-classe">Estudantes</p>
+                        <p class="p-equipe-sub">Adélia Aparecida Pereira da Silva Rodrigues</p>
+                        <p class="p-equipe-sub">Aline Aparecida da Silva</p>
+                        <p class="p-equipe-sub">Ana Maria da Silva</p>
+                        <p class="p-equipe-sub">Débora Sodré Esper</p>
+                        <p class="p-equipe-sub">Erika Polessi</p>
+                        <p class="p-equipe-sub">Guilherme Rocha Duran</p>
+                        <p class="p-equipe-sub">Marli Aparecida Pedro Duque</p>
+                        <p class="p-equipe-sub">Natália Gonçalves Moterani</p>
+                        <p class="p-equipe-sub">Pricila Gaffuri</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pesquisadores">
+                <p class="p-equipe-classe">Pesquisadores</p>
+                <p class="p-equipe-sub">Ms. Ângela Francine Fuza</p>
+                <p class="p-equipe-sub">Ms. Carmen Ilma Belincanta Borghi</p>
+                <p class="p-equipe-sub">Dra. Cláudia Valéria Dona Hila</p>
+                <p class="p-equipe-sub">Ms. Cristiane Malinoski Pianaro Angelo</p>
+                <p class="p-equipe-sub">Dra. Flávia Zanutto</p>
+                <p class="p-equipe-sub">Ms. Ivanize Ribeiro de Souza</p>
+                <p class="p-equipe-sub">Ms. Lílian Cristina Buzato Ritter</p>
+                <p class="p-equipe-sub">Ms. Luciana Cabrini Simões Calvo</p>
+                <p class="p-equipe-sub">Ms. Márcia Cristina Greco Ohuschi</p>
+                <p class="p-equipe-sub">Dra. Margarida da Silveira Corsi</p>
+                <p class="p-equipe-sub">Ms. Marilice Pompeu da Silva</p>
+                <p class="p-equipe-sub">Ms. Marilúcia dos Santos Domingos Striquer</p>
+                <p class="p-equipe-sub">Dr. Neil Armstrong Franco de Oliveira</p>
+                <p class="p-equipe-sub">Dra. Neiva Maria Jung</p>
+                <p class="p-equipe-sub">Ms. Paulo Cezar Rodrigues</p>
+                <p class="p-equipe-sub">Ms. Rafaela de Cássia Franzoi</p>
+                <p class="p-equipe-sub">Ms. Rubia Mara Bragagnollo</p>
+                <p class="p-equipe-sub">Ms. Ruth Ceccon Barreiros</p>
+                <p class="p-equipe-sub">Ms. Silvia Regina Emiliano</p>
+                <p class="p-equipe-sub">Ms. Wilsilene Rodrigues Gatto</p>
+            </div>
+            <div class="footer">
+                <p class="p-footer">Todos os Direitos Reservados - www.escrita.uem.br - 2009</p>
+            </div>
+        </div>
+
+        <div class="content-direita"></div>
+    </div>
+</body>
+
+</html>
